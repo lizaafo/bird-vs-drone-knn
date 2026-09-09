@@ -7,7 +7,7 @@
 
 ## Project
 
-This project examines whether handcrafted color and edge features can classify images as Bird or Drone. It includes data cleaning, group-aware splitting, feature engineering, a manual KNN implementation, five-fold cross-validation, test evaluation, explainability, and a K-Means extension.
+This project tests whether handcrafted color and edge features can distinguish birds from drones using KNN. The notebook covers duplicate removal, group-aware data splitting, feature extraction, cross-validation and final test evaluation. It also uses K-Means to check whether the images form meaningful clusters without class labels.
 
 ## Dataset
 
