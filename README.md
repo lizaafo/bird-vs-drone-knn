@@ -7,7 +7,7 @@
 
 ## Project
 
-This project classifies images as Bird or or Drone using handcrafted image image color and edge features with KNN.
+This project classifies images as Bird or Drone using handcrafted image color and edge features with KNN.
 
 ## Dataset
 
@@ -16,7 +16,7 @@ This project classifies images as Bird or or Drone using handcrafted image image
 - **Images:** 4,106 total - 1,607 Bird and 2,499 Drone
 
 The dataset is not stored in this repository.
-Exact duplicates were were removed, and related images were kept in the same data split to reduce leakage.
+Exact duplicates were removed, and related images were kept in the same data split to reduce leakage.
 
 ## Method
 
@@ -32,3 +32,7 @@ The final model used combined HSV-and-edge features, k=1, uniform voting, Manhat
 | Held-out test | 0.8874 | 0.8247 |
 
 The model correctly classified 470 of 497 Drones and 200 of 258 Birds.
+
+## Running the Notebook
+
+Download the dataset from Kaggle and place the class folders in `dataset/bird` and `dataset/drone`.
